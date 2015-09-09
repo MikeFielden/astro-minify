@@ -10,7 +10,7 @@
     "pretranspile": "astro jshint",
     "transpile": "astro babel --input src",
     "pretest": "npm run transpile",
-    "test": "astro test --watch",
+    "test": "",
     "nowatchtest": "astro test"
   },
   "repository": {
