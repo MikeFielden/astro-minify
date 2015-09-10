@@ -1,4 +1,11 @@
 language: node_js
-
 node_js:
- - "0.12"
+- '0.12'
+deploy:
+  provider: npm
+  email: fielden.mike@gmail.com
+  api_key:
+    secure: gPB4uDBt9olGXMudSnyT2JCMlUtAl9zKTJtAivWuJXgWwis+245MIY+1liptp2u0kNeLvYXgZ+FWxpMu4QgAVR4CYOLpKgDahv7xks19xJ9ZQ5QDTnYwz+4yD80YPXaQMtXvC6R59j3Jem4VdZa3nP6DiOcarGKpoJJjZAX1bVYMQ7Mgc+6k3p5FHZsFpUAuxuOf+NWR2wJjxtW1sE5sBueHZXRqO9+oQ49lW6OZUZzGEwv5M5Lztfqt1yZB04etDwbsVoPXhofCXdX0NMBdw9GV4HCMoR3lALSbT8Kn6BCVI9m81Xx4jG/8a08i1X7mX9SK82PhH8eBl50S+RzAyH4gioV0hdWKdhmlRFBhSLvV+eom9HkiwwVbn2tMROJ/ljyuw3MjaXKZEUglB0wOO+JFl0XHredL5DkqBFMPTRh9t3FmHFSHqVVZvug+TZ0xMolblsv1SMF68TLn0aj1xWzecNfcbBLkOvqVXXSIB0TQgFYkIque4Giz2LHb7AvrbGuH/nXJaPWwm1LApdMQZ/3HrqTPVVqNga8Fwjm4s5OXORNQexeGfII4RGVw9sAdh2tJULg/MjjyHrm4RH7T/mmy8qz8oSAjmzR0SOnc/QZdcQW5zKIoDpyQJV1Dvpww19xZy1u2Efg6DFK6c8NGTS/z4ksA9M/O3bCLG7bHT/o=
+  on:
+    tags: true
+    repo: MikeFielden/astro-minify
